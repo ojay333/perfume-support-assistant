@@ -1,0 +1,12 @@
+# Normalize source without changing the byte fingerprints of indexed inputs.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.pdf binary
+*.json -text
+customer_support_agent/docs/policy_chunks.json -text -diff
+customer_support_agent/docs/policy_index.json -text -diff
+customer_support_agent/eval_cases.json -text -diff

@@ -1,0 +1,12 @@
+# Direct dependencies pinned to the versions used by the local prototype.
+-c requirements-lock.txt
+fastapi==0.141.1
+uvicorn==0.52.4
+google-genai==2.20.0
+numpy==2.2.6
+pydantic==2.13.4
+pypdf==6.16.2
+python-dotenv==1.2.3
+requests==2.34.2
+httpx==0.28.1
+httpx2==2.13.0

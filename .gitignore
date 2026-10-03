@@ -1,0 +1,32 @@
+# Secrets stay local. Only the named example file is distributable.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+# Python and tooling state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Local execution data and automation accounts
+.adk/
+.n8n/
+node_modules/
+*.sqlite*
+*.db
+*.log
+# Private working artifacts are not portfolio source.
+output/
+tmp/
+personal/
+# Editor / operating system state
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
